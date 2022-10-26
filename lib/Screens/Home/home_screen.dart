@@ -25,7 +25,9 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
             CustomAppBar(),
+            Spacer(),
             Body(),
+            Spacer(flex: 2,),
           ],
         ),
       ),
